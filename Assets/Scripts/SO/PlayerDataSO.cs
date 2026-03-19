@@ -1,16 +1,8 @@
 using UnityEngine;
 
-public class PlayerDataSO : MonoBehaviour
+[CreateAssetMenu(fileName = "PlayerDataSO", menuName = "MySO/PlayerDataSO")]
+public class PlayerDataSO : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float maxHp = 100f;
+    public float defaultSpeed = 10f;
 }
