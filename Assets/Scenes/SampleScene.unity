@@ -847,8 +847,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ce5dd19d644956862729a6aef46d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InGameUIManager
-  hpBar: {fileID: 0}
-  HealthEventSO: {fileID: 0}
+  hpBar: {fileID: 1674635648}
+  HealthEventSO: {fileID: 11400000, guid: 64c997b737c284ff7979bb9191365513, type: 2}
 --- !u!4 &1465608337
 Transform:
   m_ObjectHideFlags: 0
